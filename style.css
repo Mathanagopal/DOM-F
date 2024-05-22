@@ -1,0 +1,75 @@
+
+body {
+  margin-left: 0.5rem !important;
+  margin-right: 0.5rem !important;
+  background-color: rgb(208, 225, 251) !important;
+}
+#title {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 0rem;
+  text-transform: uppercase;
+}
+#description {
+  text-align: left;
+  color:red;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  margin-bottom: 1rem !important;
+  font-weight: 500;
+  margin-left:20px;
+}
+.radio {
+  display: flex;
+  margin-bottom: 1rem;
+}
+h6 {
+  padding-left: 1rem;
+}
+input,
+textarea {
+  margin-left: 2rem !important;
+}
+form {
+  background-color: rgb(249, 249, 249);
+  padding-bottom: 1rem !important;
+  padding-top: 1rem !important;
+}
+input,
+textarea {
+  width: 50% !important;
+}
+.food,
+.gender {
+  width: auto !important;
+}
+table {
+  margin-top: 2rem;
+  background-color: rgb(255, 255, 255) !important;
+}
+.buttons {
+  margin: 0 !important;
+  display: flex;
+  justify-content: center;
+}
+@media screen and (max-width: 768px) {
+  input,
+  textarea {
+    width: 85% !important;
+  }
+  form {
+    width: 90% !important;
+  }
+  table {
+    overflow-x: auto;
+    display: block;
+    width: 90% !important;
+  }
+
+  th,
+  td {
+    white-space: nowrap;
+  }
+}
